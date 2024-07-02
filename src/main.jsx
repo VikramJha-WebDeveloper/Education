@@ -5,12 +5,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 import "aos/dist/aos.css";
 import "fontawesome-free/css/all.min.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router>
       <App />
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>
 );

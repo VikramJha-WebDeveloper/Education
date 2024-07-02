@@ -39,42 +39,38 @@ const Navbar = () => {
           >
             <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
               <li className="nav-item">
-                <NavLink
-                  className="nav-link"
-                  aria-current="page"
-                  to="/Education"
-                >
+                <NavLink className="nav-link" aria-current="page" to="/">
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Education/about">
+                <NavLink className="nav-link" to="/about">
                   About
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Education/courses">
+                <NavLink className="nav-link" to="/courses">
                   Courses
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Education/trainers">
+                <NavLink className="nav-link" to="/trainers">
                   Trainers
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Education/events">
+                <NavLink className="nav-link" to="/events">
                   Events
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Education/pricing">
+                <NavLink className="nav-link" to="/pricing">
                   Pricing
                 </NavLink>
               </li>
 
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Education/contact">
+                <NavLink className="nav-link" to="/contact">
                   Contact
                 </NavLink>
               </li>
