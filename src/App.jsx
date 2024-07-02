@@ -34,13 +34,31 @@ function App() {
       <Navbar></Navbar>
 
       <Routes>
-        <Route path="/" element={<HomePage></HomePage>}></Route>
-        <Route path="/about" element={<AboutPage></AboutPage>}></Route>
-        <Route path="/courses" element={<CoursesPage></CoursesPage>}></Route>
-        <Route path="/trainers" element={<TrainersPage></TrainersPage>}></Route>
-        <Route path="/events" element={<EventsPage></EventsPage>}></Route>
-        <Route path="/pricing" element={<PricingPage></PricingPage>}></Route>
-        <Route path="/contact" element={<ContactPage></ContactPage>}></Route>
+        <Route path="/Education" element={<HomePage></HomePage>}></Route>
+        <Route
+          path="/Education/about"
+          element={<AboutPage></AboutPage>}
+        ></Route>
+        <Route
+          path="/Education/courses"
+          element={<CoursesPage></CoursesPage>}
+        ></Route>
+        <Route
+          path="/Education/trainers"
+          element={<TrainersPage></TrainersPage>}
+        ></Route>
+        <Route
+          path="/Education/events"
+          element={<EventsPage></EventsPage>}
+        ></Route>
+        <Route
+          path="/Education/pricing"
+          element={<PricingPage></PricingPage>}
+        ></Route>
+        <Route
+          path="/Education/contact"
+          element={<ContactPage></ContactPage>}
+        ></Route>
       </Routes>
     </MyApp>
   );
