@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.js";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+
 import "aos/dist/aos.css";
 import "fontawesome-free/css/all.min.css";
 import { HashRouter as Router } from "react-router-dom";
